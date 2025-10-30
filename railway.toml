@@ -12,3 +12,12 @@ cmds = ["cd backend && npm run build"]
 
 [start]
 cmd = "cd backend && npm start"
+
+
+
+buildCommand = "npm install && npm run build"
+startCommand = "npm start"
+root = "backend"
+
+[env]
+PORT = "4000"
