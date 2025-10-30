@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BookIt - Experiences & Slots
 
 Simple fullstack booking app (React + TypeScript + Tailwind / Node + Express + MongoDB)
@@ -27,3 +28,7 @@ Home → Details → Checkout → Result
 ## Deployment
 - Backend: Railway/Render (set MONGO_URI)
 - Frontend: Vercel (set VITE_API_URL)
+=======
+# HD_BookitAssignment
+A complete end-to-end web application where users can explore travel experiences, select available slots, and complete bookings, both frontend and backend skills, focusing on real-world fullstack workflows, API integration, and clean UI design.
+>>>>>>> e5342299684d3021980b6f732abe4dbd7f81de66
