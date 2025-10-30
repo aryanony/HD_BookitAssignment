@@ -1,6 +1,10 @@
+
 [build]
 builder = "NIXPACKS"
-buildCommand = "npm install --prefix backend && npm run build --prefix backend"
+buildCommand = "cd backend && npm install && npm run build"
 
 [deploy]
-startCommand = "npm start --prefix backend"
+startCommand = "cd backend && npm start"
+
+[variables]
+NODE_VERSION = "18"
