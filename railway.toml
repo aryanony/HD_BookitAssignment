@@ -8,3 +8,16 @@ startCommand = "cd backend && npm start"
 
 [variables]
 NODE_VERSION = "18"
+
+
+[build]
+builder = "NIXPACKS"
+
+[phases.setup]
+nixPkgs = ["nodejs_18"]
+
+[phases.build]
+cmds = ["cd backend && npm install && npm run build"]
+
+[start]
+cmd = "cd backend && npm start"
