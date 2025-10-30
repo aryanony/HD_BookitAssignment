@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom */
+.btn-primary {
+  @apply bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-700;
+}
+.btn {
+  @apply bg-gray-100 px-3 py-1 rounded;
+}
+.card {
+  @apply bg-white shadow rounded p-3;
+}
+
+module.exports = {
+  content: ["./index.html","./src/**/*.{ts,tsx}"],
+  theme: {
+    extend: {
+      colors: { primary: '#0ea5e9' }, // adjust to Figma color
+      fontFamily: { sans: ['Inter', 'sans-serif'] },
+      spacing: { 18: '4.5rem' }
+    }
+  }
+}
