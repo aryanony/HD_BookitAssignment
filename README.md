@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # BookIt - Experiences & Slots
 
 Simple fullstack booking app (React + TypeScript + Tailwind / Node + Express + MongoDB)
@@ -28,7 +28,51 @@ Home → Details → Checkout → Result
 ## Deployment
 - Backend: Railway/Render (set MONGO_URI)
 - Frontend: Vercel (set VITE_API_URL)
-=======
+
 # HD_BookitAssignment
 A complete end-to-end web application where users can explore travel experiences, select available slots, and complete bookings, both frontend and backend skills, focusing on real-world fullstack workflows, API integration, and clean UI design.
->>>>>>> e5342299684d3021980b6f732abe4dbd7f81de66
+
+
+# 🧳 BookIt: Experiences & Slots  
+**Fullstack Intern Assignment**
+
+Live Project → [Frontend (Vercel)](https://hd-bookit-assignment.vercel.app)  
+Backend API → [Render](https://hd-bookitassignment.onrender.com)  
+Repository → [GitHub](https://github.com/aryanony/HD_BookitAssignment)
+
+---
+
+## 📖 Overview
+BookIt is a full-stack booking web app where users explore travel experiences,  
+select slots, and confirm bookings with promo code validation.
+
+---
+
+## ⚙️ Tech Stack
+**Frontend:** React + TypeScript + TailwindCSS  
+**Backend:** Node.js + Express + MongoDB (Mongoose)  
+**Hosting:**  
+- Backend → Render  
+- Frontend → Vercel  
+- Database → MongoDB Atlas  
+
+---
+
+## 🌐 API Endpoints
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| GET | `/experiences` | Get list of experiences |
+| GET | `/experiences/:id` | Get experience details + slots |
+| POST | `/bookings` | Save new booking |
+| POST | `/promo/validate` | Validate promo codes |
+
+---
+
+## 🧪 Run Locally
+
+### Backend
+```bash
+cd backend
+npm install
+echo "MONGO_URI=<your-mongo-uri>" > .env
+npm run dev
